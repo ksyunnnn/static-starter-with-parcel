@@ -1,0 +1,16 @@
+{
+  "name": "static-starter-with-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.5.2",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-pug": "^0.3.1",
+    "postcss-modules": "^1.1.0"
+  },
+  "scripts": {
+    "start": "pug src/pug/index.pug -o tmp/ --watch & parcel tmp/index.html"
+  }
+}

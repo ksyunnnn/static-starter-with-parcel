@@ -1,0 +1,11 @@
+{
+  "modules": false, // 一時的に退避
+  "plugins": {
+    "autoprefixer": {
+      "grid": true,
+      "browsers": [
+        "last 2 versions"
+      ]
+    }
+  }
+}
