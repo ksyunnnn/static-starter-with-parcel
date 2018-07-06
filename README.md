@@ -2,7 +2,9 @@
 
 ```
 yarn
+# or npm install
 yarn start
+# or npm start
 ```
 
 # 説明
