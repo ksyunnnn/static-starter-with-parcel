@@ -1,0 +1,11 @@
+@mixin on-sp-screen {
+  @media screen and (max-width: '780px') {
+    @content;
+  }
+}
+
+@mixin over-max-width {
+  @media screen and (min-width: '1440px') {
+    @content;
+  }
+}

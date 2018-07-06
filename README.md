@@ -38,6 +38,18 @@ yarn start
   - cssとかjs
 ```
 
+## How it works
+
+when you use assest in pug
+```
+img(src="../src/asset/200.jpeg")
+```
+
+when you use assest in scss
+```
+background-image: url('../asset/hand-peace-o.png');
+```
+
 # 参考
 
 https://qiita.com/ezawa800/items/91142d8d2c006414529f
